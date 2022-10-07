@@ -5,24 +5,25 @@ html {
 .mainContainer{
     display: flex;
 }
-  .leftContainer {
+
+.leftContainer {
     
-  }
+}
   
-  .left {
+.left {
     display: inline-block;
-  }
+}
   
-  .dead {
+.dead {
     background-color: rgb(10, 10, 10);
-  }
+}
   
-  .alive {
+.alive {
     background-color: rgb(89, 224, 100);
     border: 1px solid black;
-  }
+}
   
-  .gridContainer {
+.gridContainer {
     margin-top: 25px;
     margin-right: 40px;
     display: inline-grid;
@@ -32,4 +33,4 @@ html {
     border-radius: 5px;
     height: 575px;
     width: 575px;
-  } 
+} 

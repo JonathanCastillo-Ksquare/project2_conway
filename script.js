@@ -33,15 +33,6 @@ function fill2DArray(){
   }
 }
 
-// Function that prints in log the logical array
-function print2DArray(arr){
-  for(let i=0;i<gridSize;i++){
-    for(let j=0;j<gridSize;j++){
-      console.log("i: ",i,", j: ", j, ", value: ",cellsArray[i][j]);  
-    }
-  }
-}
-
 
 // Updates every div of the grid based on each cell state  
 function updateVisualBoard(){
